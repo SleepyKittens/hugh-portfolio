@@ -1,0 +1,29 @@
+body {
+  background-color: #F3F3EE;
+  margin: 0;
+
+}
+
+.portfolio_container {
+  display: -webkit-flex;
+  display: flex;
+  min-height: 706px;
+
+ }
+
+.left_pane {
+  -webkit-flex: 0.60;
+          flex: 0.60;
+  background-color: #F3F3EE;
+
+}
+
+.right_pane {
+  -webkit-flex: 2.40;
+          flex: 2.40;
+  background-color: #F3F3EE;
+  -webkit-box-shadow: inset 12px -3px 46px -38px rgba(122,122,119,1);
+  -moz-box-shadow: inset 12px -3px 46px -38px rgba(122,122,119,1);
+  box-shadow: inset 12px -3px 46px -38px rgba(122,122,119,1);
+
+}
